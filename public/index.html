@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task Board</title>
+<link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+<header>
+    <h1>Task Management</h1>
+</header>
+
+<div class="board">
+  <div class="column not-started" id="not-started">
+    <h3>Not started<span class="count"></span></h3>
+    <div class="card" draggable="true" id="task1">Task 3</div>
+    <div class="card" draggable="true" id="task2">Task 2</div>
+    <div class="card" draggable="true" id="task1">Task 5</div>
+    <!-- Add more tasks as needed -->
+    <div class="add-new">+ New</div>
+  </div>
+  
+  <div class="column in-progress" id="in-progress">
+    <h3>In progress<span class="count"></span></h3>
+    <div class="card" draggable="true" id="task1">Task 1</div>
+    <!-- Add tasks here -->
+    <div class="add-new">+ New</div>
+  </div>
+  
+  <div class="column completed" id="completed">
+    <h3>Completed<span class="count"></span></h3>
+    <div class="card" draggable="true" id="task1">Task 4</div>
+    <!-- Add tasks here -->
+    <div class="add-new">+ New</div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

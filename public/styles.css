@@ -1,0 +1,107 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Background color for the entire page */
+}
+
+header {
+    text-align: center; /* Centering the header text */
+}
+
+header h1 {
+    margin: 0;
+}
+
+.board {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.column {
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.card {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #ddd; /* Adding border for cards */
+}
+
+.card:hover {
+    background-color: #f0f0f0;
+}
+
+.add-new {
+    text-align: center;
+    padding: 10px;
+    background-color: #c8e6c9; /* Light green for + New buttons */
+    border: 1px dashed #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.add-new:hover {
+    background-color: #a5d6a7; /* Darker shade of green on hover */
+}
+
+/* Styles for task details page */
+#task-details {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Color for count spans */
+.count {
+    background-color: #007bff; /* Blue for status count */
+    color: #fff; /* Text color for status count */
+    padding: 2px 5px; /* Padding for the count */
+    border-radius: 3px; /* Border radius for the count */
+    margin-left: 5px; /* Margin between count and status */
+}
